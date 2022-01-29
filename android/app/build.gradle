@@ -191,6 +191,9 @@ android {
 }
 
 dependencies {
+    implementation platform('com.google.firebase:firebase-bom:26.3.0')
+    implementation 'com.google.firebase:firebase-auth'
+    implementation "androidx.browser:browser:1.2.0"
     implementation fileTree(dir: "libs", include: ["*.jar"])
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules

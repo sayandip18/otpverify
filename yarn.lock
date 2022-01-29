@@ -765,6 +765,11 @@
     "exec-sh" "^0.3.2"
     "minimist" "^1.2.0"
 
+"@eabdullazyanov/react-native-sms-user-consent@^1.0.10":
+  "integrity" "sha512-2z/rVmKERVIbeJucxACKTjgfuPfrHfZS48sxIMCsn1I3yO5FMzUNi+zJhK7rYW+Acj8XNIXQ4KQ79+vulhM10Q=="
+  "resolved" "https://registry.npmjs.org/@eabdullazyanov/react-native-sms-user-consent/-/react-native-sms-user-consent-1.0.10.tgz"
+  "version" "1.0.10"
+
 "@eslint/eslintrc@^1.0.5":
   "integrity" "sha512-BLxsnmK3KyPunz5wmCCpqy0YelEoxxGmH73Is+Z74oOTMtExcjkr3dDR6quwrjh1YspA8DH9gnX1o069KiS9AQ=="
   "resolved" "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.0.5.tgz"
@@ -1241,7 +1246,7 @@
   "resolved" "https://registry.npmjs.org/@react-native-community/eslint-plugin/-/eslint-plugin-1.1.0.tgz"
   "version" "1.1.0"
 
-"@react-native-firebase/app@^14.3.0":
+"@react-native-firebase/app@^14.3.0", "@react-native-firebase/app@14.3.0":
   "integrity" "sha512-b9CQw/RVDCLPepA/Veew1qXaWuGemT8nAWuZsZZhB8UfwgpvTmkeE/HSui3FC9Fz8tUWjbkkY+IRMSsKx2lS8g=="
   "resolved" "https://registry.npmjs.org/@react-native-firebase/app/-/app-14.3.0.tgz"
   "version" "14.3.0"
@@ -1249,6 +1254,11 @@
     "@expo/config-plugins" "^4.0.16"
     "opencollective-postinstall" "^2.0.1"
     "superstruct" "^0.6.2"
+
+"@react-native-firebase/auth@^14.3.0":
+  "integrity" "sha512-5RBHrcOSEC9l5H4ea4t2LfZdMfB3zhW8mAa4ltop+S2sz0rL4ra3H3lxBSgoKoZYjWMRZOzHi4dTFEC+e3M8Jg=="
+  "resolved" "https://registry.npmjs.org/@react-native-firebase/auth/-/auth-14.3.0.tgz"
+  "version" "14.3.0"
 
 "@react-native/assets@1.0.0":
   "integrity" "sha512-KrwSpS1tKI70wuKl68DwJZYEvXktDHdZMG0k2AXD/rJVSlB23/X2CB2cutVR0HwNMJIal9HOUOBB2rVfa6UGtQ=="
@@ -5703,6 +5713,11 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
+"react-native-android-sms-listener@^0.8.0":
+  "integrity" "sha512-jRAsSjQFeJKTF5ljo67UMzpUUo4P3Doq2n/uyCrBg7MowXyIMY5ALwIzs72w6oalnXUnq9izvYXeU40vLFLz6Q=="
+  "resolved" "https://registry.npmjs.org/react-native-android-sms-listener/-/react-native-android-sms-listener-0.8.0.tgz"
+  "version" "0.8.0"
+
 "react-native-codegen@^0.0.8":
   "integrity" "sha512-k/944+0XD+8l7zDaiKfYabyEKmAmyZgS1mj+4LcSRPyHnrjgCHKrh/Y6jM6kucQ6xU1+1uyMmF/dSkikxK8i+Q=="
   "resolved" "https://registry.npmjs.org/react-native-codegen/-/react-native-codegen-0.0.8.tgz"
@@ -5712,7 +5727,17 @@
     "jscodeshift" "^0.11.0"
     "nullthrows" "^1.1.1"
 
-"react-native@*", "react-native@0.67.1":
+"react-native-otp-verify@^1.0.4":
+  "integrity" "sha512-ME8XnRHxFj8Z7fpe8Gqnup///cicB6WROsf2si75zix2VWK0LW7z5dyT5EL/bOynj9KphSf219LWLKiou2aDAQ=="
+  "resolved" "https://registry.npmjs.org/react-native-otp-verify/-/react-native-otp-verify-1.0.4.tgz"
+  "version" "1.0.4"
+
+"react-native-sms-retriever@^1.1.1":
+  "integrity" "sha512-WRwiITfssx59+TB1iEMmjB7w4OTkatR34js5+4a4pP2jMXJ4aLdXK0hOtHxl8ciS8aIejdd49Sz8AXonlvtdRw=="
+  "resolved" "https://registry.npmjs.org/react-native-sms-retriever/-/react-native-sms-retriever-1.1.1.tgz"
+  "version" "1.1.1"
+
+"react-native@*", "react-native@^0.63.2", "react-native@>=0.60.0-rc.0 <1.0.x", "react-native@0.67.1":
   "integrity" "sha512-doKN9qhtjilF+6p8603OVzqGKL4fq8EDAH5u00KPmZbL5ampHDQX9y8/uwlUvJggvHwZXlnvhW63u8Y1LA8rxw=="
   "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.67.1.tgz"
   "version" "0.67.1"
@@ -5771,7 +5796,7 @@
     "react-shallow-renderer" "^16.13.1"
     "scheduler" "^0.20.2"
 
-"react@*", "react@^16.0.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0", "react@17.0.2":
+"react@*", "react@^16.0.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0", "react@^16.8.1", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
